@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="MainViewTableView" destination="RwP-OO-alu" id="umf-ao-33I"/>
+                <outlet property="mineBtn" destination="Mv8-Nq-nia" id="3tE-BW-6aI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RwP-OO-alu">
+                    <rect key="frame" x="0.0" y="72" width="600" height="528"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PII-Q8-eRX">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="最新消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvL-nK-ZNZ">
+                            <rect key="frame" x="266" y="21.5" width="68" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.16078431369999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="vvL-nK-ZNZ" firstAttribute="centerX" secondItem="PII-Q8-eRX" secondAttribute="centerX" id="KkG-j3-ocp"/>
+                        <constraint firstAttribute="height" constant="64" id="P1J-a8-LOr"/>
+                        <constraint firstAttribute="bottom" secondItem="vvL-nK-ZNZ" secondAttribute="bottom" constant="8" id="k8e-TF-dId"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mv8-Nq-nia">
+                    <rect key="frame" x="270" y="520" width="60" height="60"/>
+                    <color key="backgroundColor" red="1" green="0.6705882353" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="ZoJ-zb-2ox"/>
+                        <constraint firstAttribute="width" constant="60" id="bEc-3a-eoG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="Mine">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="mineAct:" destination="-1" eventType="touchUpInside" id="uvO-a6-Eox"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="RwP-OO-alu" firstAttribute="top" secondItem="PII-Q8-eRX" secondAttribute="bottom" constant="8" id="1ns-WK-6GL"/>
+                <constraint firstItem="PII-Q8-eRX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3RW-ND-LuA"/>
+                <constraint firstAttribute="bottom" secondItem="RwP-OO-alu" secondAttribute="bottom" id="Mx1-kV-5is"/>
+                <constraint firstItem="Mv8-Nq-nia" firstAttribute="centerX" secondItem="RwP-OO-alu" secondAttribute="centerX" id="Ze4-Z0-wyV"/>
+                <constraint firstItem="RwP-OO-alu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cDy-qg-HnF"/>
+                <constraint firstAttribute="bottom" secondItem="Mv8-Nq-nia" secondAttribute="bottom" constant="20" id="eUR-GK-KeS"/>
+                <constraint firstAttribute="trailing" secondItem="RwP-OO-alu" secondAttribute="trailing" id="jmT-G4-oT0"/>
+                <constraint firstAttribute="trailing" secondItem="PII-Q8-eRX" secondAttribute="trailing" id="rqQ-hM-IeH"/>
+                <constraint firstItem="PII-Q8-eRX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uOP-up-bPg"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

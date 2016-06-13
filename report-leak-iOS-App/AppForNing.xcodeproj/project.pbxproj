@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7516D1441CD9D07000183ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1431CD9D07000183ABB /* main.m */; };
+		7516D1471CD9D07000183ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1461CD9D07000183ABB /* AppDelegate.m */; };
+		7516D14F1CD9D07000183ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7516D14E1CD9D07000183ABB /* Assets.xcassets */; };
+		7516D1521CD9D07000183ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1501CD9D07000183ABB /* LaunchScreen.storyboard */; };
+		7516D15D1CD9D07100183ABB /* AppForNingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D15C1CD9D07100183ABB /* AppForNingTests.m */; };
+		7516D1681CD9D07100183ABB /* AppForNingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1671CD9D07100183ABB /* AppForNingUITests.m */; };
+		7516D1801CD9D1C600183ABB /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D17E1CD9D1C600183ABB /* LoginController.m */; };
+		7516D1811CD9D1C600183ABB /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516D17F1CD9D1C600183ABB /* LoginController.xib */; };
+		7516D1831CD9D50100183ABB /* 背景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1821CD9D50100183ABB /* 背景图.jpg */; };
+		7516D18B1CD9D6FE00183ABB /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1891CD9D6FE00183ABB /* RegisterController.m */; };
+		7516D18C1CD9D6FE00183ABB /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516D18A1CD9D6FE00183ABB /* RegisterController.xib */; };
+		7516D18F1CD9DC0D00183ABB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D18E1CD9DC0D00183ABB /* MBProgressHUD.m */; };
+		7516D1931CD9DC4D00183ABB /* HUDClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1921CD9DC4D00183ABB /* HUDClass.m */; };
+		7516D19F1CD9DE2800183ABB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D19D1CD9DE2800183ABB /* MainViewController.m */; };
+		7516D1A01CD9DE2800183ABB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516D19E1CD9DE2800183ABB /* MainViewController.xib */; };
+		7516D1A41CD9DE3400183ABB /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1A21CD9DE3400183ABB /* MineController.m */; };
+		7516D1A51CD9DE3400183ABB /* MineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1A31CD9DE3400183ABB /* MineController.xib */; };
+		7516D1A91CD9DF0A00183ABB /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1A71CD9DF0A00183ABB /* MainViewCell.m */; };
+		7516D1AA1CD9DF0A00183ABB /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1A81CD9DF0A00183ABB /* MainViewCell.xib */; };
+		7516D1AC1CD9E05900183ABB /* 女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1AB1CD9E05900183ABB /* 女.jpg */; };
+		7516D1AE1CD9EBAC00183ABB /* 向下箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1AD1CD9EBAC00183ABB /* 向下箭头.png */; };
+		7516D1B61CD9ECCF00183ABB /* MessageDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516D1B41CD9ECCF00183ABB /* MessageDetailController.m */; };
+		7516D1B71CD9ECCF00183ABB /* MessageDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7516D1B51CD9ECCF00183ABB /* MessageDetailController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7516D1591CD9D07000183ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516D1371CD9D07000183ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7516D13E1CD9D07000183ABB;
+			remoteInfo = AppForNing;
+		};
+		7516D1641CD9D07100183ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516D1371CD9D07000183ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7516D13E1CD9D07000183ABB;
+			remoteInfo = AppForNing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7516D13F1CD9D07000183ABB /* AppForNing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppForNing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7516D1431CD9D07000183ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7516D1451CD9D07000183ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7516D1461CD9D07000183ABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7516D14E1CD9D07000183ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7516D1511CD9D07000183ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7516D1531CD9D07000183ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7516D1581CD9D07000183ABB /* AppForNingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppForNingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7516D15C1CD9D07100183ABB /* AppForNingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppForNingTests.m; sourceTree = "<group>"; };
+		7516D15E1CD9D07100183ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7516D1631CD9D07100183ABB /* AppForNingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppForNingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7516D1671CD9D07100183ABB /* AppForNingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppForNingUITests.m; sourceTree = "<group>"; };
+		7516D1691CD9D07100183ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7516D17D1CD9D1C600183ABB /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		7516D17E1CD9D1C600183ABB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		7516D17F1CD9D1C600183ABB /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		7516D1821CD9D50100183ABB /* 背景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景图.jpg"; sourceTree = "<group>"; };
+		7516D1881CD9D6FE00183ABB /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		7516D1891CD9D6FE00183ABB /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		7516D18A1CD9D6FE00183ABB /* RegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		7516D18D1CD9DC0D00183ABB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7516D18E1CD9DC0D00183ABB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7516D1911CD9DC4D00183ABB /* HUDClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUDClass.h; path = AppForNing/HUDClass.h; sourceTree = "<group>"; };
+		7516D1921CD9DC4D00183ABB /* HUDClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HUDClass.m; path = AppForNing/HUDClass.m; sourceTree = "<group>"; };
+		7516D19C1CD9DE2800183ABB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7516D19D1CD9DE2800183ABB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7516D19E1CD9DE2800183ABB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		7516D1A11CD9DE3400183ABB /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		7516D1A21CD9DE3400183ABB /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		7516D1A31CD9DE3400183ABB /* MineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineController.xib; sourceTree = "<group>"; };
+		7516D1A61CD9DF0A00183ABB /* MainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewCell.h; sourceTree = "<group>"; };
+		7516D1A71CD9DF0A00183ABB /* MainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewCell.m; sourceTree = "<group>"; };
+		7516D1A81CD9DF0A00183ABB /* MainViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
+		7516D1AB1CD9E05900183ABB /* 女.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "女.jpg"; sourceTree = "<group>"; };
+		7516D1AD1CD9EBAC00183ABB /* 向下箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向下箭头.png"; sourceTree = "<group>"; };
+		7516D1B31CD9ECCF00183ABB /* MessageDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailController.h; sourceTree = "<group>"; };
+		7516D1B41CD9ECCF00183ABB /* MessageDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailController.m; sourceTree = "<group>"; };
+		7516D1B51CD9ECCF00183ABB /* MessageDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageDetailController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7516D13C1CD9D07000183ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516D1551CD9D07000183ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516D1601CD9D07100183ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7516D1361CD9D07000183ABB = {
+			isa = PBXGroup;
+			children = (
+				7516D1AD1CD9EBAC00183ABB /* 向下箭头.png */,
+				7516D1AB1CD9E05900183ABB /* 女.jpg */,
+				7516D1821CD9D50100183ABB /* 背景图.jpg */,
+				7516D1901CD9DC1300183ABB /* Lib */,
+				7516D1411CD9D07000183ABB /* AppForNing */,
+				7516D15B1CD9D07000183ABB /* AppForNingTests */,
+				7516D1661CD9D07100183ABB /* AppForNingUITests */,
+				7516D1401CD9D07000183ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7516D1401CD9D07000183ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7516D13F1CD9D07000183ABB /* AppForNing.app */,
+				7516D1581CD9D07000183ABB /* AppForNingTests.xctest */,
+				7516D1631CD9D07100183ABB /* AppForNingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7516D1411CD9D07000183ABB /* AppForNing */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1AF1CD9EC9900183ABB /* MessageDetail */,
+				7516D1951CD9DDE700183ABB /* MineAndSend */,
+				7516D1941CD9DDDC00183ABB /* MainView */,
+				7516D1841CD9D6BE00183ABB /* Register */,
+				7516D1761CD9D15D00183ABB /* Main */,
+				7516D1751CD9D15300183ABB /* Login */,
+				7516D1451CD9D07000183ABB /* AppDelegate.h */,
+				7516D1461CD9D07000183ABB /* AppDelegate.m */,
+				7516D14E1CD9D07000183ABB /* Assets.xcassets */,
+				7516D1501CD9D07000183ABB /* LaunchScreen.storyboard */,
+				7516D1531CD9D07000183ABB /* Info.plist */,
+				7516D1421CD9D07000183ABB /* Supporting Files */,
+			);
+			path = AppForNing;
+			sourceTree = "<group>";
+		};
+		7516D1421CD9D07000183ABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1431CD9D07000183ABB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7516D15B1CD9D07000183ABB /* AppForNingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7516D15C1CD9D07100183ABB /* AppForNingTests.m */,
+				7516D15E1CD9D07100183ABB /* Info.plist */,
+			);
+			path = AppForNingTests;
+			sourceTree = "<group>";
+		};
+		7516D1661CD9D07100183ABB /* AppForNingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1671CD9D07100183ABB /* AppForNingUITests.m */,
+				7516D1691CD9D07100183ABB /* Info.plist */,
+			);
+			path = AppForNingUITests;
+			sourceTree = "<group>";
+		};
+		7516D1751CD9D15300183ABB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1791CD9D17500183ABB /* Model */,
+				7516D1781CD9D17000183ABB /* View */,
+				7516D1771CD9D16A00183ABB /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		7516D1761CD9D15D00183ABB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7516D17C1CD9D18700183ABB /* Model */,
+				7516D17B1CD9D18000183ABB /* View */,
+				7516D17A1CD9D17A00183ABB /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		7516D1771CD9D16A00183ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7516D17D1CD9D1C600183ABB /* LoginController.h */,
+				7516D17E1CD9D1C600183ABB /* LoginController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7516D1781CD9D17000183ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7516D17F1CD9D1C600183ABB /* LoginController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7516D1791CD9D17500183ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7516D17A1CD9D17A00183ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7516D17B1CD9D18000183ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7516D17C1CD9D18700183ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7516D1841CD9D6BE00183ABB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1871CD9D6EC00183ABB /* Model */,
+				7516D1861CD9D6E700183ABB /* View */,
+				7516D1851CD9D6DF00183ABB /* Controller */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		7516D1851CD9D6DF00183ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1881CD9D6FE00183ABB /* RegisterController.h */,
+				7516D1891CD9D6FE00183ABB /* RegisterController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7516D1861CD9D6E700183ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7516D18A1CD9D6FE00183ABB /* RegisterController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7516D1871CD9D6EC00183ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7516D1901CD9DC1300183ABB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7516D18D1CD9DC0D00183ABB /* MBProgressHUD.h */,
+				7516D18E1CD9DC0D00183ABB /* MBProgressHUD.m */,
+				7516D1911CD9DC4D00183ABB /* HUDClass.h */,
+				7516D1921CD9DC4D00183ABB /* HUDClass.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		7516D1941CD9DDDC00183ABB /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1981CD9DDFE00183ABB /* Model */,
+				7516D1971CD9DDF900183ABB /* View */,
+				7516D1961CD9DDF300183ABB /* Controller */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		7516D1951CD9DDE700183ABB /* MineAndSend */ = {
+			isa = PBXGroup;
+			children = (
+				7516D19B1CD9DE1100183ABB /* Model */,
+				7516D19A1CD9DE0800183ABB /* View */,
+				7516D1991CD9DE0300183ABB /* Controller */,
+			);
+			name = MineAndSend;
+			sourceTree = "<group>";
+		};
+		7516D1961CD9DDF300183ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7516D19C1CD9DE2800183ABB /* MainViewController.h */,
+				7516D19D1CD9DE2800183ABB /* MainViewController.m */,
+				7516D1A61CD9DF0A00183ABB /* MainViewCell.h */,
+				7516D1A71CD9DF0A00183ABB /* MainViewCell.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7516D1971CD9DDF900183ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7516D19E1CD9DE2800183ABB /* MainViewController.xib */,
+				7516D1A81CD9DF0A00183ABB /* MainViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7516D1981CD9DDFE00183ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7516D1991CD9DE0300183ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1A11CD9DE3400183ABB /* MineController.h */,
+				7516D1A21CD9DE3400183ABB /* MineController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7516D19A1CD9DE0800183ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1A31CD9DE3400183ABB /* MineController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7516D19B1CD9DE1100183ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7516D1AF1CD9EC9900183ABB /* MessageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1B21CD9ECB400183ABB /* Model */,
+				7516D1B11CD9ECB000183ABB /* View */,
+				7516D1B01CD9ECA600183ABB /* Controller */,
+			);
+			name = MessageDetail;
+			sourceTree = "<group>";
+		};
+		7516D1B01CD9ECA600183ABB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1B31CD9ECCF00183ABB /* MessageDetailController.h */,
+				7516D1B41CD9ECCF00183ABB /* MessageDetailController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7516D1B11CD9ECB000183ABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7516D1B51CD9ECCF00183ABB /* MessageDetailController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7516D1B21CD9ECB400183ABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7516D13E1CD9D07000183ABB /* AppForNing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516D16C1CD9D07100183ABB /* Build configuration list for PBXNativeTarget "AppForNing" */;
+			buildPhases = (
+				7516D13B1CD9D07000183ABB /* Sources */,
+				7516D13C1CD9D07000183ABB /* Frameworks */,
+				7516D13D1CD9D07000183ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppForNing;
+			productName = AppForNing;
+			productReference = 7516D13F1CD9D07000183ABB /* AppForNing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7516D1571CD9D07000183ABB /* AppForNingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516D16F1CD9D07100183ABB /* Build configuration list for PBXNativeTarget "AppForNingTests" */;
+			buildPhases = (
+				7516D1541CD9D07000183ABB /* Sources */,
+				7516D1551CD9D07000183ABB /* Frameworks */,
+				7516D1561CD9D07000183ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7516D15A1CD9D07000183ABB /* PBXTargetDependency */,
+			);
+			name = AppForNingTests;
+			productName = AppForNingTests;
+			productReference = 7516D1581CD9D07000183ABB /* AppForNingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7516D1621CD9D07100183ABB /* AppForNingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516D1721CD9D07100183ABB /* Build configuration list for PBXNativeTarget "AppForNingUITests" */;
+			buildPhases = (
+				7516D15F1CD9D07100183ABB /* Sources */,
+				7516D1601CD9D07100183ABB /* Frameworks */,
+				7516D1611CD9D07100183ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7516D1651CD9D07100183ABB /* PBXTargetDependency */,
+			);
+			name = AppForNingUITests;
+			productName = AppForNingUITests;
+			productReference = 7516D1631CD9D07100183ABB /* AppForNingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7516D1371CD9D07000183ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ning;
+				TargetAttributes = {
+					7516D13E1CD9D07000183ABB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7516D1571CD9D07000183ABB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7516D13E1CD9D07000183ABB;
+					};
+					7516D1621CD9D07100183ABB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7516D13E1CD9D07000183ABB;
+					};
+				};
+			};
+			buildConfigurationList = 7516D13A1CD9D07000183ABB /* Build configuration list for PBXProject "AppForNing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7516D1361CD9D07000183ABB;
+			productRefGroup = 7516D1401CD9D07000183ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7516D13E1CD9D07000183ABB /* AppForNing */,
+				7516D1571CD9D07000183ABB /* AppForNingTests */,
+				7516D1621CD9D07100183ABB /* AppForNingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7516D13D1CD9D07000183ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516D1831CD9D50100183ABB /* 背景图.jpg in Resources */,
+				7516D1AA1CD9DF0A00183ABB /* MainViewCell.xib in Resources */,
+				7516D1AE1CD9EBAC00183ABB /* 向下箭头.png in Resources */,
+				7516D1A01CD9DE2800183ABB /* MainViewController.xib in Resources */,
+				7516D18C1CD9D6FE00183ABB /* RegisterController.xib in Resources */,
+				7516D1A51CD9DE3400183ABB /* MineController.xib in Resources */,
+				7516D1521CD9D07000183ABB /* LaunchScreen.storyboard in Resources */,
+				7516D1AC1CD9E05900183ABB /* 女.jpg in Resources */,
+				7516D1811CD9D1C600183ABB /* LoginController.xib in Resources */,
+				7516D1B71CD9ECCF00183ABB /* MessageDetailController.xib in Resources */,
+				7516D14F1CD9D07000183ABB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516D1561CD9D07000183ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516D1611CD9D07100183ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7516D13B1CD9D07000183ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516D1A41CD9DE3400183ABB /* MineController.m in Sources */,
+				7516D18B1CD9D6FE00183ABB /* RegisterController.m in Sources */,
+				7516D1471CD9D07000183ABB /* AppDelegate.m in Sources */,
+				7516D1931CD9DC4D00183ABB /* HUDClass.m in Sources */,
+				7516D18F1CD9DC0D00183ABB /* MBProgressHUD.m in Sources */,
+				7516D19F1CD9DE2800183ABB /* MainViewController.m in Sources */,
+				7516D1A91CD9DF0A00183ABB /* MainViewCell.m in Sources */,
+				7516D1441CD9D07000183ABB /* main.m in Sources */,
+				7516D1B61CD9ECCF00183ABB /* MessageDetailController.m in Sources */,
+				7516D1801CD9D1C600183ABB /* LoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516D1541CD9D07000183ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516D15D1CD9D07100183ABB /* AppForNingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516D15F1CD9D07100183ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516D1681CD9D07100183ABB /* AppForNingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7516D15A1CD9D07000183ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7516D13E1CD9D07000183ABB /* AppForNing */;
+			targetProxy = 7516D1591CD9D07000183ABB /* PBXContainerItemProxy */;
+		};
+		7516D1651CD9D07100183ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7516D13E1CD9D07000183ABB /* AppForNing */;
+			targetProxy = 7516D1641CD9D07100183ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7516D1501CD9D07000183ABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7516D1511CD9D07000183ABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7516D16A1CD9D07100183ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7516D16B1CD9D07100183ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7516D16D1CD9D07100183ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppForNing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ning.com.AppForNing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7516D16E1CD9D07100183ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppForNing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ning.com.AppForNing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7516D1701CD9D07100183ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppForNingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ning.com.AppForNingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppForNing.app/AppForNing";
+			};
+			name = Debug;
+		};
+		7516D1711CD9D07100183ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppForNingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ning.com.AppForNingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppForNing.app/AppForNing";
+			};
+			name = Release;
+		};
+		7516D1731CD9D07100183ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppForNingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ning.com.AppForNingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppForNing;
+			};
+			name = Debug;
+		};
+		7516D1741CD9D07100183ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppForNingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ning.com.AppForNingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppForNing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7516D13A1CD9D07000183ABB /* Build configuration list for PBXProject "AppForNing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516D16A1CD9D07100183ABB /* Debug */,
+				7516D16B1CD9D07100183ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7516D16C1CD9D07100183ABB /* Build configuration list for PBXNativeTarget "AppForNing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516D16D1CD9D07100183ABB /* Debug */,
+				7516D16E1CD9D07100183ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7516D16F1CD9D07100183ABB /* Build configuration list for PBXNativeTarget "AppForNingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516D1701CD9D07100183ABB /* Debug */,
+				7516D1711CD9D07100183ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7516D1721CD9D07100183ABB /* Build configuration list for PBXNativeTarget "AppForNingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516D1731CD9D07100183ABB /* Debug */,
+				7516D1741CD9D07100183ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7516D1371CD9D07000183ABB /* Project object */;
+}
