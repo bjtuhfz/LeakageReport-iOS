@@ -1,4 +1,4 @@
-# water_pipe_leak_iOS_app
+# LeakageReport-iOS
 # Author: Zhichun Ning
 
 Functionalities:
